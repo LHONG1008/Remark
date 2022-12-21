@@ -266,10 +266,10 @@ function checkCN(){
   if [[ "$IsCN" == "cn" ]]; then
     TimeZone="Asia/Shanghai"
     if [[ "$3" == "BioStack" || "$3" == "IPv6Stack" ]]; then
-      ipDNS="101.6.6.6"
-      ip6DNS="2001:da8::666"
+      ipDNS="8.8.8.8"
+      ip6DNS="2001:4860:4860::8888"
     else
-      ipDNS="101.6.6.6"
+      ipDNS="8.8.8.8"
     fi
   fi
 }
